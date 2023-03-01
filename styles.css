@@ -1,0 +1,109 @@
+
+.split {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+.leftpane {
+    left: 0;
+    background-color: white;
+    height: 100%;
+    width: 30%;
+    
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.rightpane {
+    right: 0;
+    background-color: #496fae;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.images {
+    width: 20px;
+    height: 20px; 
+    bottom: 20px;    
+    
+}
+
+.images:hover {
+    transform: scale(1.5)
+}
+
+.content {
+    color: white;
+}
+
+
+section {
+    display: block;
+    width: 400px;
+    height: 50px;
+    
+}
+
+button {
+    border-radius: 8px;
+    background-color: #eb4040;
+}
+
+.profile {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+footer {
+    position: fixed;
+    left: 30%;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    column-gap: 2px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+ .email {
+   
+    height: 20px;
+    width: 20px;
+    bottom: 0;
+    
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+#repos {
+    
+    border: 2px solid white;
+    margin-top: 20px;
+    
+}
+
